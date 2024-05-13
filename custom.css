@@ -59,6 +59,7 @@ a:active {
   border-top: 3px solid #bdab72;
 }
 
+
 /* Navbar Adjustments ends here  */
 
 
@@ -264,3 +265,19 @@ a:active {
     }
   }
   
+
+
+  /* Home page css ends  */
+
+
+
+
+  /* About Us Page starts  */
+  .breadcrumbs-custom-inset {
+    max-width: 2577px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+

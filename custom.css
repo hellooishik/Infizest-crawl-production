@@ -1,3 +1,11 @@
+   
+/* Universal Css  */
+
+*{
+  margin: 0;
+  border: 0;
+  
+}
 /* Universal Font-color  */
 h3{
     color: #bdab72 !important;
@@ -61,8 +69,24 @@ a:active {
 .desktop .section-top-1 {
   background-color: #100420;
 }
-
-
+.swiper-slider-corporate .button:hover {
+  color: #100420;
+  background: #bdab72 !important;
+}
+.context-dark .button.button-ujarak:not([class*='button-secondary'])::before, .bg-gray-dark .button.button-ujarak:not([class*='button-secondary'])::before, .bg-primary .button.button-ujarak:not([class*='button-secondary'])::before {
+  background: #bdab72 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #bdab72 !important;
+}
+.swiper-pagination-bullet {
+  
+  background: #bdab72 !important;
+}
+.product-big-price-wrap::before {
+  background: #bdab72 !important;
+  z-index: -1;
+}
 /* Section one  */
 .section-sm.section-first {
     background-color: #100420;
@@ -111,9 +135,6 @@ a:active {
 
     /* Section Three map  */
     .product-big * + .button {
-        margin-top: 25px;
-        min-width: 170px;
-        padding: 17px 28px 15px;
         color: #100420;
         background: #bdab72;
     }
@@ -129,9 +150,16 @@ a:active {
     }
 
 
-    /* Whatsapp Blink */
-
-#whatsapp .wtsapp:focus {
+ 
+  /* Footer panel  */
+  .footer-corporate-bottom-panel{
+    background-color: #100420;
+  }
+  /* Whatsapp Blink */
+  i {
+    font-style: normal !important;
+  }
+   #whatsapp .wtsapp:focus {
     border: none;
     outline: none;
   }
@@ -236,7 +264,3 @@ a:active {
     }
   }
   
-  /* Footer panel  */
-  .footer-corporate-bottom-panel{
-    background-color: #100420;
-  }

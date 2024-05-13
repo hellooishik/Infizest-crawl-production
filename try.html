@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Stylesheets-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <style>
+      /* Whatsapp Blink */
+
+      #whatsapp .wtsapp:focus {
+        border: none;
+        outline: none;
+      }
+      i {
+        font-style: normal !important;
+      }
+
+      #whatsapp .wtsapp {
+        position: fixed;
+        transition: all 0.5s ease;
+        background: #25d366;
+        display: block;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* margin: 0; */
+        border-radius: 50px;
+        border-right: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        bottom: 20px; /* Changed bottom position */
+        right: 14px; /* Changed right position */
+        border: 0;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+      }
+
+      #whatsapp .wtsapp:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        width: 60px;
+        height: 60px;
+        background: #25d366;
+        border-radius: 50%;
+        -webkit-animation: pulse-border 1500ms ease-out infinite;
+        animation: pulse-border 1500ms ease-out infinite;
+      }
+
+      @keyframes pulse-border {
+        0% {
+          transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+          opacity: 1;
+        }
+
+        100% {
+          transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+          opacity: 0;
+        }
+      }
+      #gmail .gmail:focus {
+        border: none;
+        outline: none;
+      }
+
+      #gmail .gmail {
+        position: fixed;
+        transition: all 0.5s ease;
+        background: #d93025;
+        display: block;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        border-radius: 50px;
+        border-right: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        bottom: 40px;
+        right: 70px; /* Adjusted right position to avoid overlapping with WhatsApp button */
+        border: 0;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+      }
+
+      #gmail .gmail:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        width: 60px;
+        height: 60px;
+        background: #d93025;
+        border-radius: 50%;
+        animation: pulse-border 1500ms ease-out infinite;
+      }
+
+      @keyframes pulse-border {
+        0% {
+          transform: scale(0);
+          opacity: 0.5;
+        }
+        100% {
+          transform: scale(1.2);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="loading-bar"></div>
+      <div id="whatsapp">
+        <a
+          href="https://wa.me/9123684835"
+          target="_blank"
+          id="toggle1"
+          class="wtsapp"
+        >
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+      <!-- This div will be justified for the gmail redirections-->
+      <div id="gmail">
+        <a href="mailto:anindya.infizest@gmail.com" id="toggle2" class="gmail">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

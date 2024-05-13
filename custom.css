@@ -70,7 +70,7 @@ a:active {
 }
 .tabs-line-big .button {
     min-width: 180px;
-    color: #bdab72 !important;
+    color: black;
 }
 .tabs-line-big .button:hover {
     min-width: 180px;
@@ -236,3 +236,7 @@ a:active {
     }
   }
   
+  /* Footer panel  */
+  .footer-corporate-bottom-panel{
+    background-color: #100420;
+  }

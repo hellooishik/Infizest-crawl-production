@@ -1,0 +1,238 @@
+/* Universal Font-color  */
+h3{
+    color: #bdab72 !important;
+}
+
+p{
+    color: white !important;
+    font-size: 20px;
+}
+.span-black{
+    color: black !important;
+    font-size: 20px;
+}
+
+
+/* Navbar Adjustments  */
+.rd-navbar-corporate.rd-navbar-static .rd-nav-item.active .rd-nav-link {
+    font-size: 20px;
+  color: #bdab72;
+}
+.rd-navbar-corporate.rd-navbar-static .rd-nav-link {
+  color: #bdab72;
+  font-size: 20px;
+}
+.rd-navbar-corporate.rd-navbar-static .rd-nav-link:hover {
+  color: white;
+}
+
+.rd-navbar-corporate.rd-navbar-static .rd-navbar-aside {
+  max-width: none !important;
+}
+
+.rd-navbar-static {
+  display: block;
+  background-color: #100420;
+}
+
+.rd-navbar-corporate.rd-navbar-static * + .button {
+  color: #bdab72;
+}
+.rd-navbar-static .rd-nav-item.active .rd-nav-link {
+  color: #bdab72;
+  background: transparent;
+}
+a,
+a:focus,
+a:active {
+  color: #bdab72;
+}
+.rd-navbar-corporate.rd-navbar-static .rd-nav-link::before {
+  border-top: 3px solid #bdab72;
+}
+
+/* Navbar Adjustments ends here  */
+
+
+
+
+/* Hero Section adjustment  */
+
+.desktop .section-top-1 {
+  background-color: #100420;
+}
+
+
+/* Section one  */
+.section-sm.section-first {
+    background-color: #100420;
+    padding-top: 100px;
+}
+.tabs-line-big .button {
+    min-width: 180px;
+    color: #bdab72 !important;
+}
+.tabs-line-big .button:hover {
+    min-width: 180px;
+    background-color: #bdab72 !important;
+    color: black !important;
+}
+.button .button-black-outline .button-md a{
+    color: #bdab72 !important;
+}
+.button-secondary.button-pipaluk::before, .button-secondary.button-pipaluk:focus::before {
+    background: #bdab72 !important;
+    border-color: #151515;
+}
+.button-primary.button-pipaluk::before, .button-primary.button-pipaluk:focus::before {
+    background: #bdab72 !important;
+    border-color: #151515;
+}
+.tabs-horizontal.tabs-line .nav-link.active, .tabs-horizontal.tabs-line .nav-link:hover {
+        color: #bdab72;
+    }
+
+    .tabs-horizontal.tabs-line .nav-link::after {
+        background: #bdab72 !important;
+       
+    }
+
+    .tab-pane .fade .show .active p{
+        font-size: 50px !important;
+    }
+
+
+    /* Section Two  */
+    .section-sm{
+        background-color: #100420 !important;
+    }
+   
+
+
+    /* Section Three map  */
+    .product-big * + .button {
+        margin-top: 25px;
+        min-width: 170px;
+        padding: 17px 28px 15px;
+        color: #100420;
+        background: #bdab72;
+    }
+    * + .offset-top-50 {
+        margin-top: 0px !important;
+    }
+    html [class*='section-'].section-top-0 {
+        padding-top: 56px !important;
+    }
+    .section-fluid {
+        padding-left: 0px !important; 
+        padding-right: 0px !important;
+    }
+
+
+    /* Whatsapp Blink */
+
+#whatsapp .wtsapp:focus {
+    border: none;
+    outline: none;
+  }
+  
+  #whatsapp .wtsapp {
+    position: fixed;
+    transition: all 0.5s ease;
+    background: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* margin: 0; */
+    border-radius: 50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    bottom: 20px; /* Changed bottom position */
+    right: 14px; /* Changed right position */
+    border: 0;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+  }
+  
+  #whatsapp .wtsapp:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #25d366;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
+  #gmail .gmail:focus {
+    border: none;
+    outline: none;
+  }
+  
+  #gmail .gmail {
+    position: fixed;
+    transition: all 0.5s ease;
+    background: #d93025;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    bottom: 40px;
+    right: 70px; /* Adjusted right position to avoid overlapping with WhatsApp button */
+    border: 0;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+  }
+  
+  #gmail .gmail:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #d93025;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  
+  @keyframes pulse-border {
+    0% {
+      transform: scale(0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  
